@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            Weather Tracker
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="jumbotron p-4 p-md-3 text-white rounded bg-dark text-center">
+              <h1 class="display-5">Weather Dashboard</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Search For a City:</h3>
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="search-term" placeholder="City Name">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </div>
+                  </form>
+              </div>
+              <div class="col-md-8">
+                <div class="card">         
+                    <!-- This main card will hold each of the resulting articles -->
+                    <div class="card-body" id="cityweather-section">
+                    </div>
+                  </div>
+          
+              </div>
+            </div>
+          </div>
+            <!-- jQuery JS -->
+            <script src="https://code.jquery.com/jquery.js"></script>
+            <!-- Code to the JavaScript File -->
+            <script src="scripts/script.js"></script>
+
+    </body>
+</html>
