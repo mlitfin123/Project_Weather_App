@@ -5,6 +5,7 @@
         <title>
             Weather Tracker
         </title>
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
     </head>
     <body>
@@ -13,8 +14,8 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-              <div class="col-md-4">
-                <h3>Search For a City:</h3>
+              <div class="col-md-2" id="search-area">
+                <h4>Search For a City:</h4>
                 <form>
                     <div class="input-group">
                         <input type="text" class="form-control" id="search-term" placeholder="City Name">
@@ -22,13 +23,54 @@
                         </div>
                   </form>
               </div>
-              <div class="col-md-8">
+              <div class="col-md-10">
                 <div class="card">         
-                    <!-- This main card will hold each of the resulting articles -->
-                    <div class="card-body" id="cityweather-section">
+                    <!-- This main card will hold each of the resulting daily weather data -->
+                    <div class="card-body" id="cityWeather-section">
                     </div>
                   </div>
-          
+              </div>
+              <div class="col-md-2">
+            </div>
+            <div class="col-md-10">
+                <h2>5 Day Weather Forecast:</h2>
+            </div>
+              <div class="col-md-2">
+              </div>
+              <div class="col-md-2">
+                <div class="card">         
+                    <!-- This main card will hold day 1 of the resulting forecast data -->
+                    <div class="card-body" id="forecast-section">
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card">         
+                    <!-- This main card will hold day 2 of the resulting forecast data -->
+                    <div class="card-body" id="forecast1-section">
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card">         
+                    <!-- This main card will hold day 3 of the resulting forecast data -->
+                    <div class="card-body" id="forecast2-section">
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card">         
+                    <!-- This main card will hold day 4 of the resulting forecast data -->
+                    <div class="card-body" id="forecast3-section">
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                <div class="card">         
+                    <!-- This main card will hold day 5 of the resulting forecast data -->
+                    <div class="card-body" id="forecast4-section">
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -36,6 +78,5 @@
             <script src="https://code.jquery.com/jquery.js"></script>
             <!-- Code to the JavaScript File -->
             <script src="scripts/script.js"></script>
-
     </body>
 </html>
