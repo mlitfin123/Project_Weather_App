@@ -8,9 +8,9 @@ $(document).ready(function () {
     var city = $("#search-term").val();
 
     // queryURL is the url we'll use to query the API
-    var queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2aef98083e4917b47f111adf6ac2ab7c`;
+    var queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=2aef98083e4917b47f111adf6ac2ab7c`;
     // forecast URL is the url we'll use to find the forecast from the API
-    var forecastURL = `http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=2aef98083e4917b47f111adf6ac2ab7c`;
+    var forecastURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=2aef98083e4917b47f111adf6ac2ab7c`;
 
     // This is the code to find the daily forecast and append it to the html
     $.get(queryURL, function (response) {
