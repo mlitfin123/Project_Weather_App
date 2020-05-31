@@ -31,7 +31,7 @@ $(document).ready(function () {
         $("#cityWeather-section").append(cityWind);
 
         //calculates the UV data for the weather
-        var uvURL = `http://api.openweathermap.org/data/2.5/uvi/forecast?appid=2aef98083e4917b47f111adf6ac2ab7c&lat=${response.coord.lat}&lon=${response.coord.lon}&cnt=1`;
+        var uvURL = `https://api.openweathermap.org/data/2.5/uvi/forecast?appid=2aef98083e4917b47f111adf6ac2ab7c&lat=${response.coord.lat}&lon=${response.coord.lon}&cnt=1`;
         $.get(uvURL, function(response){
           var UV = response[0].value;
           if (UV < 3){
