@@ -1,4 +1,4 @@
-# homework6_Weather_App
+# Weather_App
 
 This is a simple weather application that allows the user to enter a city name and see the current day's weather and the 5 day forecast. The application makes use of the OpenWeather API to retrieve all the data and allows the user to see their most recent search.
 
