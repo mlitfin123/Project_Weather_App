@@ -6,7 +6,6 @@ This is a simple weather application that allows the user to enter a city name a
 ## Table of Contents 
 * [Features](#features)
 * [Usage](#usage) 
-* [License](#license) 
 
 ## Features:
 The application displays the temperature in Farenheight, the humidity, the wind speed in MPH, and the UV Index.
